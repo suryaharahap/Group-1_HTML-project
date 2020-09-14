@@ -5,63 +5,108 @@
 
 body{
     margin: 0;
-    font-family: "Lucida Grande";
+    font-family: "Gorgia";
 }
 
 a{
     text-decoration: none;
 }
 
-.header-list li {
-    list-style: none;
-    float: right;
-    padding:33px 20px ;
-    font-size: 20px;
-}
-
 header{
   color: white;
-  height: 65px;
+  height: 75px;
   width: 100%;
   background-color:#4b4276;
+  position: fixed;
+  top: 0;
+  z-index: 10px;
+}
+
+.container {
+    max-width: 1170px;
+    height: 100%;
+    padding: 0 5px;
+    margin: 0 auto;
 }
 
 .header-logo{
     float: left;
-    font-size: 32px;
-    padding: 20px 40px;
+    margin-top: 2.17px;
+    
 }
-.container {
-    height: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+.logo{
+    width: 200px;
 }
-.top-wrapper{
-    padding: 180px 0 100px 0;
-    color: white;
-    text-align: center;
-    background-image: url("../project html/undraw_journey_lwlj.png");
-    background-position: center;
-    background-size: cover;
-}
-.fa {
-    margin-right: 5px;
+
+.header-right {
+    float: left;
+    margin-right: -20px;
   }
-.menu-icon {
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 5px 20px;
+    color: white;
+    float: right;
+    display: block;
+    transition: all 0.5s;
+  }
+
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+  }
+
+  .fa {
+    margin: 7px;
+  }
+
+  .menu-icon{
     color: white;
     float: right;
     font-size: 25px;
     padding: 21px 0;
-    display:none;
-}
-h2 {
-    color:#4b4276;
-    font-size: 32px;
+    display: block;
+  }
+
+  .top-content {
+    padding: 550px 0 200px 0;
+    background-image: url("Pic/pexels-aleksandar.jpg");
+    background-size: cover;
+    color: white;
     text-align: center;
-    background-color: rgba(0,0,0,0.5);
-    padding: 10px;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%);
+  }
+
+  .wave.top{
+      margin-top: 100px;
+      margin-bottom: -5px;
+  }
+
+  .wave.up{
+    margin-bottom: 100px;
+    margin-top: -5px;
 }
+
+  .wave{
+      width: 100%;
+  }
+
+  .img-fluid{
+      width: 100%;
+      height: auto;
+  }
+
+  footer{
+      background-color: #793cd2;
+      max-width: 100%;
+      text-align: center;
+  }
+
+  .logo-bot{
+      width: 150px;
+      border-radius: 100px;
+  }
+  
+
+
+
