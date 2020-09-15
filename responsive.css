@@ -2,11 +2,11 @@
 
 }
 
-@media(max-width:670px){
-    .header-list{
+@media all and (max-width:670px){
+    .header-right{
         display:none;
     }
     .menu-icon{
-        display: block
+        display: none;
     }
 }
