@@ -9,4 +9,15 @@
     .menu-icon{
         display: none;
     }
+    .footer-logo{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-row{
+        display: unset;
+    }
+
+    .footer-menu{
+        width: 100%;
+        text-align: center;
 }
