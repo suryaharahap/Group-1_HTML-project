@@ -178,10 +178,13 @@ header{
   display: flex;
   flex-wrap: wrap;
 }
-.conten-list img {
+.conten-list-bot{
+  width: 25%;
+}
+.conten-list-bot img {
+  width: 300px;
   padding: 15px;
   flex: auto;
-  bottom: 50px;
 }
 
   .wave.up{

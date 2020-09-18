@@ -27,6 +27,9 @@
         flex: auto;
         bottom: 50px;
     }
+    .conten3-bot{
+        display: unset;
+    }
 
     .footer-logo{
         width: 100%;
