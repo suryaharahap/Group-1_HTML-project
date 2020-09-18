@@ -7,8 +7,24 @@
         display:none;
     }
     .menu-icon{
-        display: none;
+        visibility: visible;
     }
+
+    .list-text{
+        padding-bottom: 10px;
+    }
+
+    .conten3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .conten-list img {
+        padding: 15px;
+        flex: auto;
+        bottom: 50px;
+    }
+
     .footer-logo{
         width: 100%;
         text-align: center;
@@ -25,6 +41,7 @@
     }
     .menu-one li{
         float: unset;
+        margin-right: 0px;
         margin-top: 15px;
     }
     .footer-form{
