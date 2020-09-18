@@ -145,14 +145,6 @@ header{
     background-color: white;
 }
 
-.mid-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-    height: auto;
-    padding-bottom: 80px;
-    background-color:#793cd2;
-}
-
 .conten3 {
     display: flex;
 }
