@@ -13,11 +13,14 @@
     .list-text{
         padding-bottom: 10px;
     }
-
-    .conten3 {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    .message-wrapper {
+        text-align: center;
+       
+      }
+      
+      .mid-wrapper {
+          text-align: center;
+      }
     
     .conten-list img {
         padding: 15px;

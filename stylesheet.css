@@ -18,7 +18,7 @@ header{
   background-color:#5460CF;
   position: fixed;
   top: 0;
-  z-index: 10px;
+  z-index: 10;
 }
 
 .container {
@@ -142,8 +142,17 @@ header{
     background-color: white;
 }
 
+.mid-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 80px;
+    background-color: #793cd2;
+}
+
 .conten3 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .conten-list img {
