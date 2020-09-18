@@ -154,6 +154,23 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
+/* nambah surya */
+.conten4 {
+  display: flex;
+  padding: 90px;
+}
+
+.traveloka {
+  background-color: #f7f7f7;
+}
+
+._3MvC8 {
+  margin: 0 auto;
+}
+
+.MM img {
+  border-radius: 15px;
+}
 
 .conten-list img {
     padding: 15px;
