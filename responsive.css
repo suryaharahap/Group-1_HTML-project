@@ -18,6 +18,31 @@
     }
 
     .footer-menu{
+        padding-top: 20px;
         width: 100%;
         text-align: center;
+        
+    }
+    .menu-one li{
+        float: unset;
+        margin-top: 15px;
+    }
+    .footer-form{
+        padding-top: 40px;
+        width: 100%;
+    }
+    .contact-form{
+        text-align: center;
+    }
+
+    .footer-extra{
+        text-align: center;
+        border-top: 1px solid #dee7ec;
+    }
+    .copyt{
+        width: 50%;
+    }
+    .addmore{
+        text-align: unset;
+    }
 }
