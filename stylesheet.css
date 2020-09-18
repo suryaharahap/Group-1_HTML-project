@@ -18,7 +18,7 @@ header{
   color: white;
   height: 80px;
   width: 100%;
-  background-color:#4b4276;
+  background-color:#5460CF;
   position: fixed;
   top: 0;
   z-index: 10px;
@@ -41,7 +41,7 @@ header{
 }
 
 .header-right {
-    float: left;
+    float: right;
     margin-right: -20px;
   }
   
@@ -68,24 +68,100 @@ header{
     float: right;
     font-size: 25px;
     padding: 21px 0;
-    display: block;
+    visibility: hidden;
   }
   
   .top-content {
-    padding: 550px 0 200px 0;
-    background-image: url("Pic/pexels-aleksandar.jpg");
-    background-size: cover;
-    color: white;
-    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+    background-color: #5460CF;
+    border-radius : 0 0 200px 0;
+    height: auto;
   }
+  .conten {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambart{
+  width: 500px;
+  height: auto;
+}
+.list-text {
+  float: right;
+    width: 50%;
+    margin: 0 0 0 35px;
+}
+
+.top-content h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.top-content p{
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.btn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.tickets{
+  background-color: #de4f34;
+}
+
+.btn-wrapper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conten2 {
+    display: flex;    
+}
+
+.text-init {
+    width: 50%;
+    margin: 40px 0 10px;
+}
+
+.message-wrapper p {
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+.message-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 80px;
+    background-color: white;
+}
+
+.conten3 {
+    display: flex;
+}
+
+.conten-list img {
+    padding: 15px;
+    flex: auto;
+    bottom: 50px;
+}
 
   .wave.up{
-      margin-top: 100px;
+      margin-top: 50px;
       margin-bottom: -5px;
   }
 
   .wave.bot{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: -5px;
 }
 
